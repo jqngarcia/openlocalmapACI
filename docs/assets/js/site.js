@@ -112,7 +112,7 @@ tileLayers['Estàndard (Mapnik)'].addTo(map);
 L.control.layers(tileLayers).addTo(map);
 // +++++ Set the coordinates for zoomhouse +++++
 // ++++++++MODIFICAR AQUÍ++++++++++++++
-map.setView([41.45152 , 2.2081], 15);
+map.setView([41.4523 , 2.2099], 15);
 var zoomHome = L.Control.zoomHome();
 zoomHome.addTo(map);
 var notesLayer = new leafletOsmNotes();
@@ -173,7 +173,7 @@ map.addControl(loadingControl);
 if (!map.restoreView()) {
 // +++++ Coordinates (lat,lon) for local place +++++
 //+++++++++ MODIFICAR AQUÍ ++++++++++++
-    map.setView([41.4515 , 2.2224], 14);
+    map.setView([41.4523 , 2.2099], 15);
 }
 
 var query = '';
