@@ -112,7 +112,7 @@ tileLayers['Estàndard (Mapnik)'].addTo(map);
 L.control.layers(tileLayers).addTo(map);
 // +++++ Set the coordinates for zoomhouse +++++
 // ++++++++MODIFICAR AQUÍ++++++++++++++
-map.setView([41.2214 , 1.7169], 15);
+map.setView([41.45152 , 2.2081], 15);
 var zoomHome = L.Control.zoomHome();
 zoomHome.addTo(map);
 var notesLayer = new leafletOsmNotes();
@@ -228,7 +228,7 @@ function addr_search() {
 
 // +++++ &viewbox=1.9341,41.4200,1.9886,41.3993&bounded=1 --> Coordinates (lat,long) for search box +++++
 // +++++++++ MODIFICAR AQUÍ +++++++++++
-    $.getJSON('https://nominatim.openstreetmap.org/search?format=json&viewbox=1.68434,41.23761,1.76502,41.20533&bounded=1&limit=5&q=' + inp.value, function(data) {
+    $.getJSON('https://nominatim.openstreetmap.org/search?format=json&viewbox=2.18696227,41.4732991,2.2224187,41.4332817&bounded=1&limit=5&q=' + inp.value, function(data) {
         var items = [];
 
         $.each(data, function(key, val) {
