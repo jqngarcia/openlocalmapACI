@@ -173,7 +173,7 @@ map.addControl(loadingControl);
 if (!map.restoreView()) {
 // +++++ Coordinates (lat,lon) for local place +++++
 //+++++++++ MODIFICAR AQUÍ ++++++++++++
-    map.setView([41.2214 , 1.7169], 15);
+    map.setView([41.4515 , 2.2224], 14);
 }
 
 var query = '';
