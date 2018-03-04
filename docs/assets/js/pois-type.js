@@ -397,5 +397,5 @@ var pois = {
 	name: 'Tarjeta Ciutat',
 	query: '[discount]',
 	iconName: 'ruins'
-    }
+    },
 }
