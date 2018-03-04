@@ -387,9 +387,9 @@ var pois = {
 	iconName: 'ruins'
     },
 
-    "Associació del Comerç i la Industria de Santa Coloma de Gramenet": {
+    ACI: {
 	name: 'Membres de ACI',
-	query: '[member_of="Associació del Comerç i la Industria de Santa Coloma de Gramenet"]',
+	query: '[member_of=ACI]',
 	iconName: 'ruins'
     },
 
