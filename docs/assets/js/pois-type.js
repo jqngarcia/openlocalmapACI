@@ -2,13 +2,13 @@
 
 var pois = {
 
-    biergarten: {
+    Bar: {
 	name: 'Bar',
 	query: '[amenity=bar]',
 	iconName: 'bar_coktail'
     },
 
-    pub: {
+    Pub: {
 	name: 'Pub',
 	query: '[amenity=pub]',
 	iconName: 'bar'
