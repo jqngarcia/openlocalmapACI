@@ -389,13 +389,13 @@ var pois = {
 
     MembresACI: {
 	name: 'Membres de l'ACI',
-	query: '["member_of"="Associació del Comerç i la Industria de Santa Coloma de Gramenet"]',
+	query: '[member_of"="Associació del Comerç i la Industria de Santa Coloma de Gramenet]',
 	iconName: 'ruins'
     },
 
     TarjetaCiutat: {
 	name: 'Tarjeta Ciutat',
-	query: '["discount"]',
+	query: '[discount]',
 	iconName: 'ruins'
     }
 }
