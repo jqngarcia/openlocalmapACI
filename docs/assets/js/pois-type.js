@@ -396,6 +396,6 @@ var pois = {
     TarjetaCiutat: {
 	name: 'Tarjeta Ciutat',
 	query: '["discount"]',
-	iconName: 'ruins',
+	iconName: 'ruins'
     }
 }
