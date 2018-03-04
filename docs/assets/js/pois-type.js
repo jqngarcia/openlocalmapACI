@@ -378,24 +378,24 @@ var pois = {
     viewpoint: {
 	name: 'Mirador',
 	query: '[tourism=viewpoint]',
-	iconName: 'sight-2'
+	iconName: 'sight-2',
     },
 
     ruins: {
 	name: 'Runes (i cabanes)',
 	query: '[historic=ruins]',
-	iconName: 'ruins'
+	iconName: 'ruins',
     },
 
     MembresACI: {
 	name: 'Membres de l'ACI',
 	query: '["member_of"="Associació del Comerç i la Industria de Santa Coloma de Gramenet"]',
-	iconName: 'ruins'
+	iconName: 'ruins',
     },
 
     TarjetaCiutat: {
 	name: 'Tarjeta Ciutat',
 	query: '["discount"]',
-	iconName: 'ruins'
+	iconName: 'ruins',
     }
 }
