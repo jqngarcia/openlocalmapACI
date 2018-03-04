@@ -2,13 +2,13 @@
 
 var pois = {
 
-    Bar: {
+    bar: {
 	name: 'Bar',
 	query: '[amenity=bar]',
 	iconName: 'bar_coktail'
     },
 
-    Pub: {
+    pub: {
 	name: 'Pub',
 	query: '[amenity=pub]',
 	iconName: 'bar'
