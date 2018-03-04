@@ -4,7 +4,7 @@ var pois = {
 
     biergarten: {
 	name: 'Bar',
-	query: '[amenity=biergarten]',
+	query: '[amenity=bar]',
 	iconName: 'bar_coktail',
     },
 
@@ -384,6 +384,18 @@ var pois = {
     ruins: {
 	name: 'Runes (i cabanes)',
 	query: '[historic=ruins]',
+	iconName: 'ruins'
+    },
+
+    MembresACI: {
+	name: 'Membres de l'ACI',
+	query: '["member_of"="Associació del Comerç i la Industria de Santa Coloma de Gramenet"]',
+	iconName: 'ruins'
+    },
+
+    TarjetaCiutat: {
+	name: 'Tarjeta Ciutat',
+	query: '["discount"]',
 	iconName: 'ruins'
     }
 }
