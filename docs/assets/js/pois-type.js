@@ -4,7 +4,7 @@ var pois = {
 
     biergarten: {
 	name: 'Bar',
-	query: '[amenity=bar]',
+	query: '[amenity=pub]',
 	iconName: 'bar_coktail'
     },
 
