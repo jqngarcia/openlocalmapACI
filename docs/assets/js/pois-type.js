@@ -4,7 +4,7 @@ var pois = {
 
     biergarten: {
 	name: 'Bar',
-	query: '[amenity=pub]',
+	query: '[amenity=bar]',
 	iconName: 'bar_coktail'
     },
 
@@ -34,7 +34,7 @@ var pois = {
 
     caterer: {
 	name: 'Menjar preparat',
-	query: '[craft=caterer]',
+	query: '[delivery=yes]',
 	iconName: 'takeaway'
     },
 
