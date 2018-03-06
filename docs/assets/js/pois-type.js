@@ -102,7 +102,7 @@ var pois = {
 
     clinic: {
 	name: 'Clínica',
-	query: '[amenity=clinic]',
+	query: '[amenity=clinic][member_of=ACI]',
 	iconName: 'medicine'
     },
 
@@ -221,7 +221,7 @@ var pois = {
 	iconName: 'lingerie'
     },
 
-    computer: {
+    it: {
 	name: 'Informàtica',
 	query: '[office=it][member_of=ACI]',
 	iconName: 'computers'
