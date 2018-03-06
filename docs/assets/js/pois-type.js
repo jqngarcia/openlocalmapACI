@@ -165,7 +165,7 @@ var pois = {
 //	name: 'Forn',
 //	query: '[shop=bakery]',
 //	iconName: 'bakery'
-    },
+//    },
 
     greengrocer: {
 	name: 'Fruiteria',
