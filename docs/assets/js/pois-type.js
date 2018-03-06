@@ -387,10 +387,4 @@ var pois = {
 	iconName: 'ruins'
     },
 
-    ACI: {
-	name: 'Membres de ACI',
-	query: '[member_of=ACI]',
-	iconName: 'ruins'
-    },
-
 }
