@@ -20,11 +20,11 @@ var pois = {
 	iconName: 'restaurant',
     },
 
-    cafe: {
-	name: 'Cafè',
-	query: '[amenity=cafe][member_of=ACI]',
-	iconName: 'coffee'
-    },
+//    cafe: {
+//	name: 'Cafè',
+//	query: '[amenity=cafe][member_of=ACI]',
+//	iconName: 'coffee'
+//    },
 
 //    fast_food: {
 //	name: 'Menjar ràpid',
@@ -51,17 +51,17 @@ var pois = {
 	tagParser: bank_parser
     },
 
-    atm: {
-	name: 'Caixer',
-	query: '[amenity=atm]',
-	iconName: 'atm-2'
-    },
+//    atm: {
+//	name: 'Caixer',
+//	query: '[amenity=atm]',
+//	iconName: 'atm-2'
+//    },
 
-    post_office: {
-	name: 'Oficina de correus',
-	query: '[amenity=post_office]',
-	iconName: 'postal'
-    },
+//    post_office: {
+//	name: 'Oficina de correus',
+//	query: '[amenity=post_office]',
+//	iconName: 'postal'
+//    },
 
 //    fuel: {
 //	name: 'Estació de servei',
@@ -70,15 +70,15 @@ var pois = {
 //	tagParser: fuel_parser
 //    },
 
-//    wheel_repair: {
-//	name: 'Rodes',
-//	query: '[shop=car_repair][car_repair=wheel_repair]',
-//	iconName: 'tires'
-//    },
+    wheel_repair: {
+	name: 'Recambis',
+	query: '[shop=car_parts][member_of=ACI]',
+	iconName: 'tires'
+    },
 
     car_repair: {
 	name: 'Mecànic',
-	query: '[shop=car_repair]',
+	query: '[shop=car_repair][member_of=ACI]',
 	iconName: 'repair'
     },
 
@@ -115,19 +115,19 @@ var pois = {
 
     pharmacy: {
 	name: 'Farmàcia',
-	query: '[amenity=pharmacy]',
+	query: '[amenity=pharmacy][member_of=ACI]',
 	iconName: 'drugstore'
     },
 
     dentist: {
 	name: 'Dentista',
-	query: '[amenity=dentist]',
+	query: '[amenity=dentist][member_of=ACI]',
 	iconName: 'dentist'
     },
 
     veterinary: {
 	name: 'Veterinari',
-	query: '[amenity=veterinary]',
+	query: '[amenity=veterinary][member_of=ACI]',
 	iconName: 'veterinary'
     },
 
@@ -139,45 +139,45 @@ var pois = {
 
     hairdresser: {
 	name: 'Perruqueria',
-	query: '[shop=hairdresser]',
+	query: '[shop=hairdresser][member_of=ACI]',
 	iconName: 'barber'
     },
 
     beauty: {
 	name: 'Estètica',
-	query: '[shop=beauty]',
+	query: '[shop=beauty][member_of=ACI]',
 	iconName: 'beautysalon'
     },
 
     supermarket: {
 	name: 'Supermercat',
-	query: '[shop=supermarket]',
+	query: '[shop=supermarket][member_of=ACI]',
 	iconName: 'supermarket'
     },
 
-    convenience: {
-	name: 'Queviures',
-	query: '[shop=convenience]',
-	iconName: 'conveniencestore'
-    },
+//   convenience: {
+//	name: 'Queviures',
+//	query: '[shop=convenience]',
+//	iconName: 'conveniencestore'
+//    },
 
-    bakery: {
-	name: 'Forn',
-	query: '[shop=bakery]',
-	iconName: 'bakery'
+//    bakery: {
+//	name: 'Forn',
+//	query: '[shop=bakery]',
+//	iconName: 'bakery'
     },
 
     greengrocer: {
 	name: 'Fruiteria',
-	query: '[shop=greengrocer]',
+	query: '[shop=greengrocer][member_of=ACI]',
 	iconName: 'fruits'
     },
 
-    farm: {
-	name: 'Productes de granja',
-	query: '[shop=farm]',
-	iconName: 'farmstand'
-    },
+//    farm: {
+//	name: 'Productes de granja',
+//	query: '[shop=farm]',
+//	iconName: 'farmstand'
+//    },
 
     herbalist: {
 	name: 'Herboristeria',
@@ -187,15 +187,15 @@ var pois = {
 
     newsagent: {
 	name: 'Diaris',
-	query: '[shop=newsagent]',
+	query: '[office=newspaper][member_of=ACI]',
 	iconName: 'newsagent'
     },
 
-    kiosk: {
-	name: 'Quiosc',
-	query: '[shop=kiosk]',
-	iconName: 'kiosk'
-    },
+//   kiosk: {
+//	name: 'Quiosc',
+//	query: '[shop=kiosk]',
+//	iconName: 'kiosk'
+//    },
 
     pet: {
 	name: 'Mascotes',
@@ -203,41 +203,41 @@ var pois = {
 	iconName: 'pets'
     },
 
-    video: {
-	name: 'Vídeoclub',
-	query: '[shop=video]',
-	iconName: 'movierental'
-    },
+//  video: {
+//	name: 'Vídeoclub',
+//	query: '[shop=video]',
+//	iconName: 'movierental'
+//    },
 
     jewelry: {
 	name: 'Joieria',
-	query: '[shop=jewelry]',
+	query: '[shop=jewelry][member_of=ACI]',
 	iconName: 'jewelry'
     },
 
     fabric: {
 	name: 'Merceria',
-	query: '[shop=fabric]',
+	query: '[shop=fabric][member_of=ACI]',
 	iconName: 'lingerie'
     },
 
     computer: {
 	name: 'Informàtica',
-	query: '[shop=computer]',
+	query: '[office=it][member_of=ACI]',
 	iconName: 'computers'
     },
 
-//    butcher: {
-//	name: 'Carniceria',
-//	query: '[shop=butcher]',
-//	iconName: 'butcher-2'
-//    },
-
-    doityourself: {
-	name: 'Bricolatge',
-	query: '[shop=doityourself]',
-	iconName: 'hiretools'
+    butcher: {
+	name: 'Carniceria',
+	query: '[shop=butcher][member_of=ACI]',
+	iconName: 'butcher-2'
     },
+
+ //   doityourself: {
+//	name: 'Ferreterìa',
+//	query: '[shop=doityourself]',
+//	iconName: 'hiretools'
+//    },
 
 
     electrical_equipment: {
@@ -357,7 +357,7 @@ var pois = {
 
     hotel: {
 	name: 'Hotel',
-	query: '[tourism=hotel]',
+	query: '[amenitym=hotel][member_of=ACI]',
 	iconName: 'hotel_0star',
 	tagParser: hotel_parser
     },
