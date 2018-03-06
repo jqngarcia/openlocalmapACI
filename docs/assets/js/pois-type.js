@@ -34,7 +34,7 @@ var pois = {
 
     caterer: {
 	name: 'Menjar preparat',
-	query: '[delivery]',
+	query: '[delivery=only]',
 	iconName: 'takeaway'
     },
 
