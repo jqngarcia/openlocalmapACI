@@ -78,7 +78,7 @@ var pois = {
 
     car_repair: {
 	name: 'Mecànic',
-	query: '[shop=car_repair],
+	query: [shop=car_repair],
 	iconName: 'repair'
     },
 
