@@ -4,25 +4,25 @@ var pois = {
 
     bar: {
 	name: 'Bar',
-	query: '[amenity=bar]',
+	query: '[amenity=bar][member_of=ACI',
 	iconName: 'bar_coktail'
     },
 
     pub: {
 	name: 'Pub',
-	query: '[amenity=pub]',
+	query: '[amenity=pub][member_of=ACI',
 	iconName: 'bar'
     },
 
     restaurant: {
 	name: 'Restaurant',
-	query: '[amenity=restaurant]',
+	query: '[amenity=restaurant][member_of=ACI',
 	iconName: 'restaurant',
     },
 
     cafe: {
 	name: 'Cafè',
-	query: '[amenity=cafe]',
+	query: '[amenity=cafe][member_of=ACI',
 	iconName: 'coffee'
     },
 
@@ -34,7 +34,7 @@ var pois = {
 
     caterer: {
 	name: 'Menjar preparat',
-	query: '[delivery=only]',
+	query: '[delivery=only][member_of=ACI',
 	iconName: 'takeaway'
     },
 
