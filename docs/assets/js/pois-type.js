@@ -360,8 +360,6 @@ var pois = {
 	query: '[amenity=ngo]',
 	iconName: 'communitycentre'
     },
-	
-	communitycentre
 
 //    paintball: {
 //	name: 'Paintball',
