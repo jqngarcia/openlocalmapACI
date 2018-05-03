@@ -99,6 +99,24 @@ var pois = {
 	query: '[amenity=school][member_of=ACI]',
 	iconName: 'school'
     },
+	
+    training_dance: {
+	name: 'Acadèmia de Dansa',
+	query: '[leisure=dance][member_of=ACI]',
+	iconName: 'dance_class'
+    },
+
+    Playground: {
+	name: 'Espais de lleure',
+	query: '[leisure=playground][member_of=ACI]',
+	iconName: 'playground'
+    },
+	
+    Gambling: {
+	name: 'Jocs i Apostes',
+	query: '[amenity=gambling][member_of=ACI]',
+	iconName: 'casino-2'
+    },
 
     clinic: {
 	name: 'Clínica',
@@ -307,11 +325,11 @@ var pois = {
 //	iconName: 'flowers'
 //    },
 
-//    swimming_pool: {
-//	name: 'Botiga de piscines',
-//	query: '[shop=swimming_pool]',
-//	iconName: 'swimming2'
-//    },
+//      swimming_pool: {
+//  	name: 'Centre Esportiu',
+//  	query: '[leisure=sports_center][member_of=ACI]',
+//  	iconName: 'swimming2'
+//      },
 
     estate_agent: {
 	name: 'Immobiliària',
@@ -336,6 +354,14 @@ var pois = {
 //	query: '[amenity=theatre]',
 //	iconName: 'theater'
 //    },
+	
+      NGO: {
+	name: 'ONG i Fundacions',
+	query: '[amenity=ngo]',
+	iconName: 'communitycentre'
+    },
+	
+	communitycentre
 
 //    paintball: {
 //	name: 'Paintball',
@@ -359,8 +385,7 @@ var pois = {
 	name: 'Hotel',
 	query: '[amenitym=hotel][member_of=ACI]',
 	iconName: 'hotel_0star',
-	tagParser: hotel_parser
-    },
+},
 
 //    hostel: {
 //	name: 'Hostel',
@@ -373,7 +398,7 @@ var pois = {
 	name: 'Club',
 	query: '[leisure=sports_centre][member_of=ACI]',
 	iconName: 'stadium'
-    },
+ },
 
 //    viewpoint: {
 //	name: 'Mirador',
