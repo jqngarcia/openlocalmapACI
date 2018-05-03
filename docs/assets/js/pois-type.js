@@ -46,7 +46,7 @@ var pois = {
 
     bank: {
 	name: 'Banc',
-	query: '[amenity=bank]',
+	query: '[amenity=bank][member_of=ACI]',
 	iconName: 'bank',
 	tagParser: bank_parser
     },
@@ -181,7 +181,7 @@ var pois = {
 
     herbalist: {
 	name: 'Herboristeria',
-	query: '[shop=herbalist]',
+	query: '[shop=herbalist][member_of=ACI]',
 	iconName: 'herbalist'
     },
 
@@ -199,7 +199,7 @@ var pois = {
 
     pet: {
 	name: 'Mascotes',
-	query: '[shop=pet]',
+	query: '[shop=pet][member_of=ACI]',
 	iconName: 'pets'
     },
 
@@ -242,31 +242,31 @@ var pois = {
 
     electrical_equipment: {
 	name: 'Mat.elèctric',
-	query: '[shop=electrical_equipment]',
+	query: '[shop=electrical_equipment][member_of=ACI]',
 	iconName: 'power'
     },
 
     reforms: {
 	name: 'Construccions',
-	query: '[craft=reforms]',
+	query: '[craft=reforms][member_of=ACI]',
 	iconName: 'plastering'
     },
 
     electrician: {
 	name: 'Electricista',
-	query: '[craft=electrician]',
+	query: '[craft=electrician][member_of=ACI]',
 	iconName: 'power'
     },
 
     window_construction: {
 	name: 'Al·lumini',
-	query: '[craft=window_construction]',
+	query: '[craft=window_construction][member_of=ACI]',
 	iconName: 'glazer'
     },
 
     glaziery: {
 	name: 'Cristalleria',
-	query: '[shop=glaziery]',
+	query: '[shop=glaziery][member_of=ACI]',
 	iconName: 'glazer'
     },
 
@@ -278,14 +278,14 @@ var pois = {
 
     paint: {
 	name: 'Pintures',
-	query: '[shop=paint]',
+	query: '[shop=paint][member_of=ACI]',
 	iconName: 'paint'
     },
 
 
     furniture: {
 	name: 'Mobles',
-	query: '[shop=furniture]',
+	query: '[shop=furniture][member_of=ACI]',
 	iconName: 'homecenter'
     },
 
@@ -371,7 +371,7 @@ var pois = {
 
     sports_centre: {
 	name: 'Club',
-	query: '[leisure=sports_centre]',
+	query: '[leisure=sports_centre][member_of=ACI]',
 	iconName: 'stadium'
     },
 
