@@ -139,7 +139,7 @@ var pois = {
 
     dentist: {
 	name: 'Dentista',
-	query: '[amenity=dentist][member_of=ACI]',
+	query: '[shop=dentist][member_of=ACI]',
 	iconName: 'dentist'
     },
 
