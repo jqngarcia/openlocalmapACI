@@ -76,7 +76,7 @@ var pois = {
 	iconName: 'tires'
     },
 
-    car_repair: {
+    repair: {
 	name: 'Mecànic',
 	query: '[shop=car_repair][member_of=ACI]',
 	iconName: 'repair'
@@ -94,11 +94,11 @@ var pois = {
 //	iconName: 'bus'
 //    },
 
-    training: {
-	name: 'Acadèmia',
-	query: '[amenity=school][member_of=ACI]',
-	iconName: 'school'
-    },
+//    training: {
+//	name: 'Acadèmia',
+//	query: '[amenity=school][member_of=ACI]',
+//	iconName: 'school'
+//    },
 	
     training_dance: {
 	name: 'Acadèmia de Dansa',
@@ -118,11 +118,11 @@ var pois = {
 	iconName: 'casino-2'
     },
 
-    clinic: {
-	name: 'Clínica',
-	query: '[amenity=clinic][member_of=ACI]',
-	iconName: 'medicine'
-    },
+//    clinic: {
+//	name: 'Clínica',
+//	query: '[amenity=clinic][member_of=ACI]',
+//	iconName: 'medicine'
+//    },
 
 //    hospital: {
 //	name: 'Hospital',
