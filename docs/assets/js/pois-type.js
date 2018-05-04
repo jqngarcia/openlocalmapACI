@@ -4,7 +4,7 @@ var pois = {
 
     bar: {
 	name: 'Bar',
-	query: '[amenity=bar][member_of=ACI]',
+	query: '[shop=car_repair][member_of=ACI]',
 	iconName: 'bar_coktail'
     },
 	
