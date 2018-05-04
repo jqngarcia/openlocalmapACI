@@ -1,4 +1,4 @@
-    dentist: {
+        dentist: {
 	name: 'Dentista',
 	query: '[shop=dentist][member_of=ACI]',
 	iconName: 'dentist'
