@@ -4,13 +4,13 @@ var pois = {
 
     bar: {
 	name: 'Bar',
-	query: '[shop=car_repair][member_of=ACI]',
+	query: '[amenity=bar][member_of=ACI]',
 	iconName: 'bar_coktail'
     },
 	
     repair: {
 	name: 'Mecànic',
-	query: '[ameninty=bar][member_of=ACI]',
+	query: '[amenity=bar][member_of=ACI]',
 	iconName: 'repair'
     },
     
