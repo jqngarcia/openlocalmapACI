@@ -1,4 +1,75 @@
-        dentist: {
+       // All the POIs shown in the map
+
+var pois = {
+
+    bar: {
+	name: 'Bar',
+	query: '[amenity=bar][member_of=ACI]',
+	iconName: 'bar_coktail'
+    },
+
+    pub: {
+	name: 'Pub',
+	query: '[amenity=pub][member_of=ACI]',
+	iconName: 'bar'
+    },
+
+    restaurant: {
+	name: 'Restaurant',
+	query: '[amenity=restaurant][member_of=ACI]',
+	iconName: 'restaurant',
+    },
+
+    caterer: {
+	name: 'Menjar preparat',
+	query: '[delivery=only][member_of=ACI]',
+	iconName: 'takeaway'
+    },
+
+    bank: {
+	name: 'Banc',
+	query: '[amenity=bank][member_of=ACI]',
+	iconName: 'bank',
+	tagParser: bank_parser
+    },
+
+    wheel_repair: {
+	name: 'Recambis',
+	query: '[shop=car_parts][member_of=ACI]',
+	iconName: 'tires'
+    },
+
+    repair: {
+	name: 'Mecànic',
+	query: '[shop=car_repair][member_of=ACI]',
+	iconName: 'repair'
+    },
+
+    training_dance: {
+	name: 'Acadèmia de Dansa',
+	query: '[leisure=dance][member_of=ACI]',
+	iconName: 'dance_class'
+    },
+
+    Playground: {
+	name: 'Espais de lleure',
+	query: '[leisure=playground][member_of=ACI]',
+	iconName: 'playground'
+    },
+	
+    Gambling: {
+	name: 'Jocs i Apostes',
+	query: '[amenity=gambling][member_of=ACI]',
+	iconName: 'casino-2'
+    },
+
+    pharmacy: {
+	name: 'Farmàcia',
+	query: '[amenity=pharmacy][member_of=ACI]',
+	iconName: 'drugstore'
+    },
+
+    dentist: {
 	name: 'Dentista',
 	query: '[shop=dentist][member_of=ACI]',
 	iconName: 'dentist'
@@ -135,6 +206,8 @@
 	name: 'Hotel',
 	query: '[amenitym=hotel][member_of=ACI]',
 	iconName: 'hotel_0star',
+	tagParser: bank_parser
+	    
     },
 
     sports_centre: {
@@ -144,3 +217,15 @@
     },
 
 }
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
