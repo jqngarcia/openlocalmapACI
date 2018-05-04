@@ -10,7 +10,7 @@ var pois = {
 	
     repair: {
 	name: 'Mecànic',
-	query: '[shop=car_repair][member_of=ACI]',
+	query: '[ameninty=bar][member_of=ACI]',
 	iconName: 'repair'
     },
     
